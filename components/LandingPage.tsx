@@ -10,7 +10,7 @@ const LandingPage = () => {
       <Navbar />
       
       {/* Rest of your landing page content */}
-      <main className="container mx-auto px-4 py-12">
+      <main className="container mx-auto px-28 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Left Column - Text Content */}
           <div className="space-y-6">
