@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full flex justify-center">
-      <nav className="fixed top-0 mx-auto mt-4 px-11 py-5 bg-white/10 backdrop-blur-3xl rounded-lg border-2 border-white/20">
+      <nav className="fixed top-0 z-10 mx-auto mt-4 px-11 py-5 bg-white/10 backdrop-blur-3xl rounded-lg border-2 border-white/20">
         <ul className="flex items-center space-x-16">
           {menuItems.map((item) => (
             <li 
